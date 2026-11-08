@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eksho Rokom</title>
+  <meta http-equiv="refresh" content="0; url=shop.html">
+</head>
+<body>
+  <p>Redirecting to Eksho Rokom...</p>
+
+  <script>
+    const defaultParams =
+      "?u=0Mkj6ad1FbgTWxVrMDOgGBJ5rQg1" +
+      "&d=https%3A%2F%2Fcloude-er-app-storage-default-rtdb.asia-southeast1.firebasedatabase.app";
+
+    const params = window.location.search || defaultParams;
+
+    window.location.replace(
+      "/shop.html" + params + window.location.hash
+    );
+  </script>
+</body>
+</html>
